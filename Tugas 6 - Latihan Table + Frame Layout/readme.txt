@@ -5,3 +5,4 @@
 	- Folder Lat2 untuk file XML latihan 2
 	- Folder Lat3 untuk file XML latihan 3
 4. Copas file XML dari folder Lat1 atau Lat2 ke folder Lokasi File XML (No.2) untuk mencoba script
+5. Link github : https://github.com/fauziladzuardhirokhmana/PWPB_XII-RPL-1_FauziLR/tree/master/Tugas%206%20-%20Latihan%20Table%20%2B%20Frame%20Layout

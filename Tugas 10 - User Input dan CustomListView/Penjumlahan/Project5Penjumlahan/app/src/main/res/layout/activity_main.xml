@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TXT1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Penjumlahan 2 Buah Bilangan"
+        android:textSize="20dp"
+        android:layout_marginVertical="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/TXT2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:text="Masukkan Bilangan Pertama"
+        app:layout_constraintTop_toBottomOf="@id/TXT1"/>
+    <EditText
+        android:id="@+id/ETX1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Bilangan pertama"
+        app:layout_constraintTop_toBottomOf="@id/TXT2"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/TXT3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:text="Masukkan Bilangan Pertama"
+        app:layout_constraintTop_toBottomOf="@id/ETX1"/>
+    <EditText
+        android:id="@+id/ETX2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Bilangan pertama"
+        app:layout_constraintTop_toBottomOf="@id/TXT3"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <Button
+        android:id="@+id/BTNJumlah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        app:layout_constraintTop_toBottomOf="@id/ETX2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="Jumlahkan"/>
+    <TextView
+        android:id="@+id/TXT4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:text="Hasil Penjumlahan"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@id/BTNJumlah"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+    <EditText
+        android:id="@+id/ETX3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:hint="Hasil"
+        app:layout_constraintTop_toBottomOf="@id/TXT4"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
